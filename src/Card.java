@@ -5,6 +5,9 @@ public class Card {
 		// TODO Auto-generated method stub
 		Card c = new Card(1,"Fortune");
 		c.showCard();
+		
+		EstateCard ec = new EstateCard(2,"Estate Card","Antalya",1,10000);
+		ec.showCard();
 
 	}
 	
